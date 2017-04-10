@@ -19,7 +19,7 @@ public class ScheduledJobService extends JobService {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                completeJob(params);
+                codeYouWantToRun(params);
             }
         }).start();
 
@@ -31,14 +31,14 @@ public class ScheduledJobService extends JobService {
         return false;
     }
 
-    public void completeJob(final JobParameters parameters) {
+    public void codeYouWantToRun(final JobParameters parameters) {
         try {
 
             Log.d(TAG, "completeJob: " + "jobStarted");
             //This task takes 2 seconds to complete.
             Thread.sleep(2000);
 
-            Log.d(TAG, "completeJob: " + "afterSleep");
+            Log.d(TAG, "completeJob: " + "jobFinished");
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {
