@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "502982715383",
+    "firebase_url": "https://fir-demos-ef607.firebaseio.com",
+    "project_id": "fir-demos-ef607",
+    "storage_bucket": "fir-demos-ef607.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502982715383:android:f124df395773d08f",
+        "android_client_info": {
+          "package_name": "com.wiselteach.geofire_v10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "502982715383-ovhrdk3kbo7phtt8fb80rstd3ct53hch.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wiselteach.geofire_v10",
+            "certificate_hash": "0a6e147aba2edca31f235e6ea29e3127072eefbc"
+          }
+        },
+        {
+          "client_id": "502982715383-sgjk48ej56357f5aqbb586h9ttbsr6ns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClxtsOR1I40861R-j929ksufgxMVlx3Us"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "502982715383-sgjk48ej56357f5aqbb586h9ttbsr6ns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
