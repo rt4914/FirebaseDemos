@@ -10,7 +10,6 @@ android {
         versionCode 1
         versionName "1.0"
 
-        buildConfigField("String","KEY_KEY",API_KEY)
     }
     buildTypes {
         release {
